@@ -34,7 +34,7 @@ if AL then
     AL["Priority:"] = "Приоритет:";
     AL["Click boss name to view loot."] = "Кликните по имени босса для просмотра трофеев.модификации";
     AL["Various Locations"] = "Разное местонахождение";
-    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Spread).|r";
+    AL["Minicredit"] = "|cffFFFFFFАдаптация Аддона для Sirus(Днюша) Обновлено(Spread).|r";
     AL["Toggle AL Panel"] = "AL Панель";
     AL["Back"] = "Назад";
     AL["Level 60"] = "Уровень 60";
@@ -273,13 +273,19 @@ if AL then
 	-- AtlasLoot Panel
 	AL["Collections"] = "Наборы";
     AL["Crafting"] = "Ремесло";
+	AL["DailyMenu"] = "По островам";
+	AL["DailyMenuMain"] = "Ежедневное";
+	AL["DailySpec"] = "По спекам";
+	AL["Keld"] = "Кель'Данас";
+	AL["Tolg"] = "Тол'Гарод";
+	AL["His"] = "Истории прошлого";
     AL["Factions"] = "Фракции";
     AL["Load Modules"] = "Загр. модулей";
     AL["Options"] = "Опции";
 	AL["PvP Rewards"] = "PvP награды";
 	AL["a9"] = "9 PVP сезон ";
 	AL["a10"] = "10 PVP сезон ";
-    AL["QuickLook"] = "Быстрый Осмотр";
+    AL["QuickLook"] = "Осмотр";
 	AL["World Events"] = "Мировые события";
 	AL["Kategoria"] = "Sirus";
 	AL["Kategoria_x2"] = "Sirus x2";
@@ -489,6 +495,9 @@ if AL then
 	AL["Magic Eater"] = "Пожиратель магии";
 	
 	AL["Zort"] = "Зорт";
+	
+	AL["Specs"] = "По Спекам";
+	AL["SpecsDrop"] = "По Спекам";
 
 	--Other
 

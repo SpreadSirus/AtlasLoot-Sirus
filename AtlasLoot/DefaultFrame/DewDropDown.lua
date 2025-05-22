@@ -271,24 +271,34 @@ AtlasLoot_DewDropDown = {
 		},
 	},
 	[8] = {
-		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
+		[ AL["DailyMenuMain"]] = {
+			[1] = {
+				{ AL["DailyMenu"], "DAILYMENU", "Table" },
+				},
+			[2] = {
+				{ AL["DailySpec"], "DAILYMENU", "Table" },
+			},
+		},
 	},
 	[9] = {
-		{ AL["Sets/Collections"], "SETMENU", "Table" },
+		{ AL["Crafting"], "CRAFTINGMENU", "Table" },
 	},
 	[10] = {
-		{ AL["PvP Rewards"], "PVPMENU", "Table" },
+		{ AL["Sets/Collections"], "SETMENU", "Table" },
 	},
 	[11] = {
-		{ AL["World Bosses"], "WorldBosses", "Submenu" },
+		{ AL["PvP Rewards"], "PVPMENU", "Table" },
 	},
 	[12] = {
-		{ AL["Reputation Factions"], "REPMENU", "Table" },
+		{ AL["World Bosses"], "WorldBosses", "Submenu" },
 	},
 	[13] = {
-		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
+		{ AL["Reputation Factions"], "REPMENU", "Table" },
 	},
 	[14] = {
+		{ AL["World Events"], "WORLDEVENTMENU", "Table" },
+	},
+	[15] = {
 		{ AL["Kategoria"], "KATEGORIAMENU_x2", "Table" },
 	},
 };
@@ -974,6 +984,9 @@ AtlasLoot_DewDropDown_SubTables = {
 	},
 	["Zort"] = {
 		{ "", "Zort" },			
+	},
+	["DAILYMENU"] = {
+		{ "", "DAILYMENU" },			
 	},
 		
 };
